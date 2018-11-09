@@ -1,4 +1,3 @@
-
 // DOC -------------------------------------
 //
 //  Compile:     gcc main.c -lncurses
@@ -17,7 +16,7 @@ char last[10];
 WINDOW * ma_fenetre;
 //--------------------------------------------------------------------------------------------------------------- FUNCTIONS
 int capture()
-        {char nom[12]; system("clear"); printf("Quel est votre code ? "); fgets(nom,10,stdin);printf("Ah ! Tres bien ! Execution de: %s !",nom); memcpy(last, nom, 10); return 0; }
+        {char nom[12]; system("clear"); printf("Quel est votre code ? "); fgets(nom,10,stdin);printf("Ah !! Execution de: %s !",nom); memcpy(last, nom, 10); return 0; }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 void welcome()
         {system("clear");printf("###################################################################\n");printf("System good!\n");return;}
